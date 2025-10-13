@@ -72,9 +72,8 @@ body {
 }
 
 .cover {
-    background-image: url(/images/cover.jpg);
+    background-image: url('../images/cover.jpg');
     height: 757px;
-    top: 293px;
 }
 
 .lots {
