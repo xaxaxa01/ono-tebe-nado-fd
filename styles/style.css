@@ -1,1 +1,32 @@
-/* место для вашего кода */
+body {
+    background-color: white;
+}
+
+.header {
+    height: 293px;
+}
+
+.cover {
+    background-image: url(/images/cover.jpg);
+    height: 757px;
+    top: 293px;
+}
+
+.lots {
+    height: 723px;
+    width: 1052px;
+    left: 24px;
+    top: 1230px;
+}
+
+.about{
+    height: 595px;
+    width: 1052px;
+    left: 24px;
+    top: 2073px;
+}
+
+.footer {
+    height: 180px;
+    top: 2848px;
+}
