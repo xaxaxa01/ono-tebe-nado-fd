@@ -19,29 +19,37 @@ body {
 }
 
 .menu {
-    height: 22px;
-    width: 391.48px;
     margin: 133px 0 0 50px;
     display: flex;
-    align-items: center;
-    gap: 13.5px;
+    /* gap: 31.5px; */
 }
 
-.nav-item {
+.menu-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.marker {
+    list-style-type: circle;
+    margin-left: 30px;
+    margin-right: 3px;
+    padding-left: 2px;
+    margin-top: 0.5px;
+}
+
+ 
+.menu-link {
     text-decoration: none;
-}
-
-.circle {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin-top: 2px;
-    flex-shrink: 0;
 }
 
 .with-line {
     text-decoration: underline;
-    text-decoration-thickness: 1.4px;
+    text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
 
@@ -49,8 +57,8 @@ body {
     width: 148px;
     height: 105px;
     margin-top: 92px;
-    padding-left: 11px;
-    margin-left: 30px;
+    align-items: center;
+    padding-left: 11px; 
 }
 
 .contacts {
