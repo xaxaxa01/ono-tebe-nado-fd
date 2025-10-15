@@ -79,8 +79,32 @@ body {
 }
 
 .cover {
-    background-image: url('../images/cover.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cover.jpg');
     height: 757px;
+    display: inline-block;
+    color: white;
+}
+
+.title {
+    width: 1000px;
+    height: 385px;
+    margin: 165px 50px 0 50px ;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+.it {
+    text-align: left;
+}
+
+.you {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.necessary {
+    text-align: end;
+    margin-top: 20px;
 }
 
 .lots {
