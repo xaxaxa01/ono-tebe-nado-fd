@@ -21,7 +21,6 @@ body {
 .menu {
     margin: 133px 0 0 50px;
     display: flex;
-    /* gap: 31.5px; */
 }
 
 .menu-list {
@@ -42,7 +41,6 @@ body {
     margin-top: 0.5px;
 }
 
- 
 .menu-link {
     text-decoration: none;
 }
@@ -57,14 +55,15 @@ body {
     width: 148px;
     height: 105px;
     margin-top: 92px;
-    align-items: center;
-    padding-left: 11px; 
+    margin-left: 30px;
+    padding-left: 10px; 
+    padding-right: 1px;
 }
 
 .contacts {
     width: 240px;
     height: 98px;
-    margin: 95px 0 0 191px;
+    margin: 95px 0 0 190px;
 }
 
 .contact-info {
@@ -74,7 +73,7 @@ body {
 
 .contact-with-line {
     text-decoration: underline;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 1.5px;
     text-underline-offset: 4px;
     line-height: 1.35;
 }
