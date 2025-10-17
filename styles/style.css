@@ -89,22 +89,57 @@ body {
     width: 1000px;
     height: 385px;
     margin: 165px 50px 0 50px ;
-    font-size: 50px;
+    font-size: 100px;
     letter-spacing: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
+    line-height: 115px;
+}
+
+.title-span {
+    margin-right: -30px;
 }
 
 .it {
-    text-align: left;
+    align-self: flex-start;
 }
 
 .you {
-    text-align: center;
-    margin-top: 17px;
+    align-self: center;
 }
 
 .necessary {
-    text-align: end;
-    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    margin: 106px 50px 0 50px;
+    width: 1000px;
+    justify-content: space-between;
+    
+}
+
+.description-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 28px;
+    align-self: center;
+    word-spacing: 18.5px;
+}
+
+.bid-button {
+    width: 256px;
+    height: 51px;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background: transparent;
+    padding: 0;
 }
 
 .lots {
