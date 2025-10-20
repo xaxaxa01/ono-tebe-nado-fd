@@ -1,13 +1,4 @@
-html {
-  background-color: #f5f5f5;
-}
-
-body {
-  background-color: white;
-}
-
 .header {
-  max-height: 293px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   padding: 92px 50px 96px 50px;
@@ -46,45 +37,50 @@ body {
   text-decoration: none;
 }
 
-.header_logo {
-  width: 148px;
-  height: 114px;
-  display: block;
-}
-
 .header_logo-image {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 148px;
+  height: 105px;
 }
 
 .logo_image {
   padding: 0 6px 8px 6px;
-  width: 100%;
-  height: 100%;
 }
 
-.header_address {
-  max-width: 240px;
-  justify-self: end;
+.contact-address {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 3px 0 4px 0;
   font-style: normal;
   line-height: 1.35;
   text-decoration-thickness: 1.5px;
+}
+
+.header_contact-address {
+  max-width: 240px;
+  justify-self: end;
+  align-items: flex-start;
+  padding: 3px 0 4px;
   text-underline-offset: 4px;
 }
 
 .cover {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
   min-height: 757px;
   color: white;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .cover_title {
@@ -96,6 +92,8 @@ body {
   gap: 20px;
   text-transform: uppercase;
   line-height: 115px;
+  position: relative;
+  z-index: 2;
 }
 
 .aligned-text {
@@ -119,6 +117,8 @@ body {
   flex-direction: row;
   padding: 106px 50px 0 50px;
   justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
 
 .cover_description-text {
@@ -130,8 +130,8 @@ body {
 }
 
 .bid-button {
-  width: 256px;
-  height: 51px;
+  min-width: 256px;
+  min-height: 51px;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
@@ -163,6 +163,7 @@ body {
   min-height: 596px;
   list-style: none;
   color: white;
+  
 }
 
 .card-link {
@@ -175,6 +176,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -186,6 +203,8 @@ body {
   line-height: 1.2;
   text-decoration: underline;
   text-underline-offset: 2.5px;
+  position: relative;
+  z-index: 2;
 }
 
 .card_text {
@@ -194,30 +213,8 @@ body {
   align-items: flex-end;
   font-size: 20px;
   margin-bottom: 0;
-}
-
-.card_type_film {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-}
-
-.card_type_book {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-}
-
-.card_type_picture {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .lots_look-more-link {
@@ -229,7 +226,6 @@ body {
 }
 
 .about {
-  min-height: 595px;
   padding: 120px 24px 0 24px;
 }
 
@@ -277,17 +273,11 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
-  min-height: 180px;
   font-size: 18px;
   padding: 0 50px;
 }
 
-.footer_address {
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-  line-height: 1.35;
-  text-decoration-thickness: 1.5px;
+.footer_contact-address {
   text-underline-offset: 3.5px;
 }
 
@@ -318,6 +308,9 @@ body {
 
 .footer_social-link {
   display: block;
+}
+
+.footer_social-icon {
   width: 48px;
   height: 48px;
 }
