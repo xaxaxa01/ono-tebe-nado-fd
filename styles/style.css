@@ -1,322 +1,323 @@
 html {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .header {
-    max-height: 293px;
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    padding: 92px 50px 96px 50px;
-    font-size: 18px;
+  max-height: 293px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 92px 50px 96px 50px;
+  font-size: 18px;
 }
 
 .header_menu {
-    display: flex;
-    padding: 41px 36.52px 42px 0;
+  display: flex;
+  padding: 41px 36.52px 42px 0;
 }
 
 .header_links-list {
-    display: flex;
-    flex-direction: row;
-    gap: 31.5px;
+  display: flex;
+  flex-direction: row;
+  gap: 31.5px;
 }
 
 .header_links-list-item {
-    list-style: circle;
-    margin-right: 2px;
+  list-style: circle;
+  margin-right: 2px;
 }
 
 .header_links-list-item_no-bullit {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header_link {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .header-link_active {
-    text-decoration: none;  
+  text-decoration: none;
 }
 
 .header_logo {
-    width: 148px;
-    height: 114px;
-    display: block;
+  width: 148px;
+  height: 114px;
+  display: block;
 }
 
 .header_logo-image {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .logo_image {
-    padding: 0 6px 8px 6px;
-    width: 100%;
-    height: 100%;
+  padding: 0 6px 8px 6px;
+  width: 100%;
+  height: 100%;
 }
 
 .header_address {
-    max-width: 240px;
-    justify-self: end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 3px 0 4px 0;
-    font-style: normal;
-    line-height: 1.35;
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 4px;
+  max-width: 240px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3px 0 4px 0;
+  font-style: normal;
+  line-height: 1.35;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
 }
 
 .cover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/cover.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    min-height: 757px;
-    color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 757px;
+  color: white;
 }
 
 .cover_title {
-    padding: 165px 50px 0 50px;
-    font-size: 100px;
-    letter-spacing: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-transform: uppercase;
-    line-height: 115px;
+  padding: 165px 50px 0 50px;
+  font-size: 100px;
+  letter-spacing: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: uppercase;
+  line-height: 115px;
 }
 
 .aligned-text {
-    margin-right: -30px;
+  margin-right: -30px;
 }
 
 .aligned-text_left {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .aligned-text_center {
-    align-self: center;
+  align-self: center;
 }
 
 .aligned-text_right {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .cover_description {
-    display: flex;
-    flex-direction: row;
-    padding: 106px 50px 0 50px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 106px 50px 0 50px;
+  justify-content: space-between;
 }
 
 .cover_description-text {
-    font-size: 22px;
-    text-transform: uppercase;
-    line-height: 28px;
-    align-self: center;
-    word-spacing: 18.5px;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 28px;
+  align-self: center;
+  word-spacing: 18.5px;
 }
 
 .bid-button {
-    width: 256px;
-    height: 51px;
-    color: white;
-    font-size: 22px;
-    text-transform: uppercase;
-    border: 1px solid white;
-    background: transparent;
-    padding: 0;
+  width: 256px;
+  height: 51px;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  background: transparent;
+  padding: 0;
 }
 
 .lots {
-    padding: 180px 24px 0 24px;
+  padding: 180px 24px 0 24px;
 }
 
 .lots_heading {
-    padding-left: 40px;
-    font-size: 40px;
-    text-transform: uppercase;
+  padding-left: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots_card-list {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    padding-top: 27px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-top: 27px;
+  flex-wrap: wrap;
 }
 
 .lots_card-list-item {
-    width: 334px;
-    min-height: 596px;
-    list-style: none;
-    color: white;
+  width: 334px;
+  min-height: 596px;
+  list-style: none;
+  color: white;
 }
 
 .card-link {
-    height: 100%;
-    text-decoration: none;
+  height: 100%;
+  text-decoration: none;
 }
 
 .card {
-    padding: 48px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card_title {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 0;
-    flex-shrink: 0;
-    line-height: 1.2;
-    text-decoration: underline;
-    text-underline-offset: 2.5px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  flex-shrink: 0;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
 }
 
 .card_text {
-    flex-grow: 1;
-    display: flex;
-    align-items: flex-end; 
-    font-size: 20px;
-    margin-bottom: 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
 .card_type_film {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .card_type_book {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .card_type_picture {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .lots_look-more-link {
-    display: inline-block;
-    padding: 30px 0 0 40px;
-    font-size: 20px;
-    text-decoration: underline;
-    text-underline-offset: 4px;
+  display: inline-block;
+  padding: 30px 0 0 40px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .about {
-    min-height: 595px;
-    padding: 120px 24px 0 24px; 
+  min-height: 595px;
+  padding: 120px 24px 0 24px;
 }
 
 .about_column {
-    display: grid;
-    grid-template-columns: 334px 1fr;
-    gap: 25px;
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
 }
 
 .about_logo {
-    background-color: black;
-    margin-top: 34px;
-    height: 240px;
-    width: 240px;
-    border-radius: 50%;
-    justify-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: black;
+  margin-top: 34px;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about_logo-image {
-    width: 148px;
+  width: 148px;
 }
 
 .about_description {
-    padding-top: 133px;
+  padding-top: 133px;
 }
 
 .about_title {
-    padding-top: 3px;
-    font-size: 40px;
-    text-transform: uppercase;
+  padding-top: 3px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about_text {
-    padding-top: 100px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  padding-top: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 180px;
-    min-height: 180px;
-    font-size: 18px;
-    padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 180px;
+  min-height: 180px;
+  font-size: 18px;
+  padding: 0 50px;
 }
 
 .footer_address {
-    display: flex;
-    flex-direction: column;
-    font-style: normal;
-    line-height: 1.35;
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3.5px;
-
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  line-height: 1.35;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3.5px;
 }
 
 .footer_menu {
-    justify-self: center;
-    text-align: center;
+  justify-self: center;
+  text-align: center;
 }
 
 .footer_menu-link {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer_menu-link_active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer_menu-list {
-    list-style: none;
+  list-style: none;
 }
 
 .footer_social-list {
-    list-style: none;
-    display: flex;
-    gap: 48px;
-    justify-self: end;
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  justify-self: end;
 }
 
 .footer_social-link {
-    display: block;
-    width: 48px;
-    height: 48px;
+  display: block;
+  width: 48px;
+  height: 48px;
 }
-
-
