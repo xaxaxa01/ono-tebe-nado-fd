@@ -7,80 +7,81 @@ body {
 }
 
 .header {
-    height: 293px;
-    display: inline-block;
+    max-height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    padding: 92px 50px 96px 50px;
     font-size: 18px;
 }
 
-.header-line {
-    width: 100%;
-    height: 100%;
+.header_menu {
     display: flex;
+    padding: 41px 36.52px 42px 0;
 }
 
-.menu {
-    margin: 133px 0 0 50px;
+.header_links-list {
     display: flex;
+    flex-direction: row;
+    gap: 31.5px;
 }
 
-.menu-list {
-    display: flex;
-    padding: 0;
-    margin: 0;
+.header_links-list-item {
+    list-style: circle;
+    margin-right: 2px;
 }
 
-.menu-item {
+.header_links-list-item_no-bullit {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.marker {
-    list-style-type: circle;
-    margin-left: 30px;
-    margin-right: 3px;
-    padding-left: 2px;
-    margin-top: 0.5px;
-}
-
-.menu-link {
-    text-decoration: none;
-}
-
-.with-line {
+.header_link {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
 
-.logo {
+.header-link_active {
+    text-decoration: none;  
+}
+
+.header_logo {
     width: 148px;
-    height: 105px;
-    margin-top: 92px;
-    margin-left: 30px;
-    padding-left: 10px; 
-    padding-right: 1px;
+    height: 114px;
+    display: block;
 }
 
-.contacts {
-    width: 240px;
-    height: 98px;
-    margin: 95px 0 0 190px;
+.header_logo-image {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
-.contact-info {
+.logo_image {
+    padding: 0 6px 8px 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.header_address {
+    max-width: 240px;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3px 0 4px 0;
     font-style: normal;
-    line-height: 1.4;
-}
-
-.contact-with-line {
-    text-decoration: underline;
+    line-height: 1.35;
     text-decoration-thickness: 1.5px;
     text-underline-offset: 4px;
-    line-height: 1.35;
 }
 
 .cover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cover.jpg');
-    height: 757px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 757px;
     display: inline-block;
     color: white;
 }
