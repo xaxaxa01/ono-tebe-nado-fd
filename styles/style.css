@@ -273,7 +273,7 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
   font-size: 18px;
-  padding: 0 50px;
+  padding: 0 50px 82px 50px;
 }
 
 .footer_contact-address {
